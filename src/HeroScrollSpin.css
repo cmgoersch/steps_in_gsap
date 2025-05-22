@@ -1,0 +1,24 @@
+/* HeroScrollSpin.css */
+
+.hero-section {
+  height: 150vh;
+  background-color: #111;
+  color: #f9f9e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.hero-headline {
+  font-size: 5rem;
+  text-align: center;
+  line-height: 1.1;
+  transform-style: preserve-3d;
+  will-change: transform;
+  backface-visibility: visible;
+}
+
+.hero-headline span {
+  display: block;
+}
