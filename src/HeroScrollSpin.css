@@ -1,13 +1,13 @@
-/* HeroScrollSpin.css */
-
 .hero-section {
-  height: 150vh;
+  height: 200vh;
   background-color: #111;
   color: #f9f9e1;
   display: flex;
   justify-content: center;
   align-items: center;
   perspective: 1000px;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-headline {
@@ -21,4 +21,19 @@
 
 .hero-headline span {
   display: block;
+}
+
+/* Vogel-Styling */
+.bird {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(0);
+  z-index: 5;
+}
+
+.bird img {
+  width: 60px;
+  height: auto;
+  pointer-events: none;
 }
